@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border : border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    padding: 0px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.nav-logo{
+    height: 40px;
+    width: 130px;
+    align-items: center;
+    display: flex;
+
+}
+
+.logo{
+    background-image: url("AW_Logo.png");
+    background-size: cover;
+    background-position: center;
+    height: 45px;
+    width: 100%;
+}
+
+/** div2 **/
+
+.Add1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 18px;
+}
+
+.Add2{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+/** div3 **/
+
+.nav-search{
+    margin-left: 30px;
+    display: flex;
+    width: 700px;
+    background-color: pink;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover{
+    border: 1px solid orange;
+}
+
+
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.input1{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #febd68;
+    font-size: 1.2rem;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color:#0f1111
+}
+
+/** div4 **/
+span{
+    font-size: 0.75rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** div5 **/
+.cart-icon i{
+    font-size: 30px;
+
+}
+
+.cart-icon{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+/** Pannel **/
+
+.nav-pannel{
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt p{
+    display: inline;
+    margin-left: 12px;
+
+}
+
+.panel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+
+.panel-deal{
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+.heroSection{
+    background-image: url("hero-img.jpg");
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.hero-msg a{
+    color: #007185;
+    cursor: pointer;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ecd29a;
+}
+
+
+.box{
+    /**border: solid 2px red;**/
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+    cursor: pointer;
+
+}
+
+
+/**Footer**/
+
+footer{
+    margin-top: 10px;
+}
+
+
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+ul{
+    margin-top: 40px;
+}
+
+.foot-panel2 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.foot-panel3{
+    background-color: #222f3d ;
+    color: white;
+    border-top: .5px solid grey;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2{
+    background-image: url("AW_Logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color: #131a22;
+    color: white;
+    height: 76px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/  
+    font-size: 12px;
+    text-align: center;
+}
+.pages{
+    padding-top: 15px;
+}
+
+.pages a{
+    color: white;
+    text-decoration: none; 
+    padding-right: 15px;
+}
+
+.copyright{
+    padding-top: 10px;  
+}
